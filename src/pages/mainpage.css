@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    /* box-sizing: border-box; */
+    background-color: #F6F7F6;
+    font-family: 'Zhizn';
+    font-weight: bold;
+  }
+.start_page{
+    position: relative; 
+    /* width: 100%; 
+    height: 100vh; */
+    margin: 0;
+  }
+   /* кнопка вход */
+  .button_enter{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    right: 270px;
+    top: 30px;
+    border-radius: 20px;
+    background: rgb(255, 178, 115);
+    font-size: 18px;
+    font-weight: bold;    
+  }
+  /* кнопка создать объявление */
+  .button_create_ad{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    right: 50px;
+    top: 30px;
+    border-radius: 20px;
+    background: rgb(255, 178, 115);
+    font-size: 18px;
+    font-weight: bold;    
+  }
+ /* название сайта */
+  .name{
+    position: absolute;
+    width: 200px;
+    height:50px;
+    left: 46px;
+    top: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Buba;
+    font-weight: bold;
+    text-decoration: underline 1px;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    -webkit-text-stroke: 1px #000;
+  }
+  .main_part{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    top: 150px;
+    border-radius: 20px;
+    background: rgb(141, 160, 160);
+  }
+  /* Поисковая строка */
+  .search_block{
+    position: absolute;
+    z-index: 2;
+    width: 1050px;
+    height: 60px;
+    right: 350px;
+    top: 60px;
+    border-radius: 45px;
+    background: rgb(255, 238, 224);
+  }
+  .search{
+    border: #000 1 solid;
+    top: 80px;
+    left:230px;
+    font-size: 22px;
+    position: absolute;
+    z-index:5;
+  }
+  .button_search{
+    /* кнопка поиск */
+    position: absolute;
+    z-index: 3;
+    width: 90px;
+    height: 60px;
+    right: 310px;
+    top: 60px;
+    border-radius: 45px;
+    background: rgb(255, 178, 115);
+  }
+  .imgsearch{
+    z-index: 4;
+    background-color: rgb(255, 238, 224);
+    border-radius: 25px;
+    position: absolute;
+    left: 150px;
+    top: 70px;
+  }
+  .lost{
+    position:absolute;
+    top:20px;
+    left: 200px;
+    font-size: 26px;
+    font-weight: bold; 
+    background: rgb(141, 160, 160);
+    color: #000;
+    text-decoration: none;
+  }
+  .lost:hover {
+    position:absolute;
+    top: 20px;
+    left: 200px;
+    font-size: 26px;
+    font-weight: bold; 
+    text-decoration: underline!important;
+    background: rgb(141, 160, 160);
+    color:#ff9742;
+  }
+  .found{
+    position:absolute;
+    top:20px;
+    left: 350px;
+    font-size: 26px;
+    font-weight: bold; 
+    background: rgb(141, 160, 160);
+    color: #000;
+    text-decoration: none;
+  }
+  .found:hover {
+    position:absolute;
+    top: 20px;
+    left: 350px;
+    font-size: 26px;
+    font-weight: bold; 
+    text-decoration: underline!important;
+    background: rgb(141, 160, 160);
+    color:#ff9742;
+  }
+  .imgadress{
+    z-index: 6;
+    background-color: rgb(141, 160, 160);
+    border-radius: 25px;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+  }
+  .category{
+    position: absolute;
+    z-index: 3;
+    width: 110px;
+    height: 55px;
+    left: 25px;
+    top: 65px;
+    background: rgb(255, 178, 115);
+    /* text-align: center; */
+    border-radius: 45px;
+    /* font-size: 18px; */
+  }
+  .category select{
+    position: relative;
+    display: block;
+    width: 20px;
+    left: 40px;
+    top: 20px;
+    height: 55px;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    padding-bottom: 10px;
+}
+.category-name{
+  position: relative;
+  font-size: 18px;
+  background: rgb(255, 178, 115);
+  width: 90px;
+  left: 10px;
+  top: -40px;
+}
+.login_user{
+  position: absolute;
+  left: 1200px;
+  top: 40px;
+  font-size: large;
+  color: #ff9742;
+}
+.container-ad{
+  position: relative;
+  top: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 карточки в ряд */
+  grid-gap: 20px; /* Отступ между карточками */
+  padding: 20px; 
+}
+.ad{
+  position: absolute;
+  top: 370px;
+  left: 40px;
+  font-size: 24px;
+}
+.ymap-container, .ymap-container * {
+  all: unset;
+}
+.ymap-container{
+  position: absolute;
+  left: 900px;
+  top: 110px;
+  width: 400px; /* Ширина контейнера карты */
+  height: 400px; /* Высота контейнера карты */
+  margin: 20px 0; /* Отступ сверху и снизу */
+  border: 1px solid #ccc; /* Рамка вокруг карты */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень вокруг карты */
+  z-index: 7;
+}

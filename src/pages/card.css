@@ -1,0 +1,93 @@
+*{
+    background-color: #F6F7F6;
+    font-family: 'Zhizn';
+    font-weight: bold;
+  }
+.card {
+    background-color: #FFEEE0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    font-family: 'Macherie';
+  }
+  
+  .card img {
+    background-color: #FFEEE0;
+    height: auto;
+  }
+  
+  .card h3 {
+    font-family: 'Macherie';
+    font-size: large;
+    flex-grow: 1;
+    background-color: #FFEEE0;
+    margin: 10px; 
+  }
+  
+  .card p {
+    font-family: 'Macherie';
+    background-color: #FFEEE0;
+    margin: 10px; 
+  }
+  
+  .card button {
+    background-color: #8DA0A0; /* Фон кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border: none; /* Убрать границу кнопки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    margin: 10px; /* Отступ кнопки */
+    cursor: pointer; /* Курсор в виде указателя */
+    transition: background-color 0.3s; /* Анимация фона кнопки */
+  }
+  
+  .card button:hover {
+    background-color: #0056b3; /* Фон кнопки при наведении */
+  }
+
+  /* Стили для пагинации */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #8DA0A0; /* Фон кнопок пагинации */
+  color: #fff; /* Цвет текста кнопок */
+  border: none; /* Убрать границу кнопок */
+  padding: 10px 20px; /* Отступы внутри кнопок */
+  margin: 0 10px; /* Отступы между кнопками */
+  cursor: pointer; /* Курсор в виде указателя */
+  transition: background-color 0.3s; /* Анимация фона кнопок */
+}
+
+.pagination button:hover {
+  background-color: #0056b3; /* Фон кнопок при наведении */
+}
+
+.pagination button:disabled {
+  background-color: #cccccc; /* Фон неактивных кнопок */
+  cursor: default; /* Курсор по умолчанию для неактивных кнопок */
+}
+
+.pagination span {
+  margin: 0 10px; /* Отступы для текста с номером страницы */
+}
+.container {
+  position: relative;
+  top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 карточки в ряд */
+  grid-gap: 20px; /* Отступ между карточками */
+  padding: 20px; 
+}
+.card-content{
+  font-family: 'Macherie';
+  background-color: #FFEEE0;
+  display: flex;
+  align-items: center; 
+}

@@ -1,0 +1,95 @@
+.pageadd{
+    font-family: 'Macherie';
+}
+ /* название сайта */
+ .name{
+    position: absolute;
+    width: 200px;
+    height:50px;
+    left: 46px;
+    top: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Buba;
+    font-weight: bold;
+    text-decoration: underline 1px;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    -webkit-text-stroke: 1px #000;
+  }
+.pageadd h1{
+    position: relative;
+    top: 50px;
+    left: 250px;
+    text-decoration: underline;
+    font-family: 'Macherie';
+    font-size: 30px;
+
+}
+.pageadd img{
+    font-family: 'Macherie';
+    position: relative;
+    top: 35px;
+    left: 250px;
+}
+.descr{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    font-family: 'Macherie';
+    font-size: 22px;
+}
+.date-a{
+    font-size: 22px;
+    font-family: 'Macherie';
+    position: absolute;
+    top: 500px;
+    left: 250px;
+}
+.time-a{
+    font-size: 22px;
+    font-family: 'Macherie';
+    position: absolute;
+    top: 530px;
+    left: 250px;
+}
+.place-a{
+    font-size: 22px;
+    font-family: 'Macherie';
+    position: absolute;
+    top: 560px;
+    left: 250px;
+}
+.b-a{
+    position: absolute;
+    top: 620px;
+    left: 750px;
+    font-family: 'Zhizn';
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgb(255, 178, 115);
+    font-size: 18px;
+    font-weight: bold; 
+}
+.back{
+    position: absolute;
+    top: 620px;
+    left: 240px;
+    font-family: 'Zhizn';
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgb(255, 178, 115);
+    font-size: 18px;
+    font-weight: bold; 
+}
+.contacts-a{
+    position: absolute;
+    top: 530px;
+    left: 640px;
+    font-size: 22px;
+    font-family: 'Macherie';
+}

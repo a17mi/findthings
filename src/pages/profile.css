@@ -1,0 +1,133 @@
+.cabinet{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    font-size: 24px;
+}
+/* логин */
+.profile-login{
+    position: absolute;
+    top: 180px;
+    left: 470px;
+    font-size: 20px;
+  }
+  .profile-input1{
+    position: absolute;
+    left: 580px;
+    width: 550px;
+    height: 40px;
+    top: 170px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+  .profile-input_login{
+    border: #000 1 solid;
+    position: absolute;
+    left: 30px;
+    top: 8px;
+    font-size: 20px;
+  }
+  /* пароль */
+  .profile-password{
+    position: absolute;
+    top: 250px;
+    left: 470px;
+    font-size: 20px;
+  }
+  .profile-input2{
+    position: absolute;
+    left: 580px;
+    width: 550px;
+    height: 40px;
+    top: 240px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+  .profile-input_password{
+    border: #000 1 solid;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    font-size: 20px;
+  }
+    /* e-mail */
+  .profile-email{
+    position: absolute;
+    top: 320px;
+    left: 470px;
+    font-size: 20px;
+  }
+  .profile-input3{
+    position: absolute;
+    left: 580px;
+    width: 550px;
+    height: 40px;
+    top: 310px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+  .profile-input_email{
+    border: #000 1 solid;
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    font-size: 20px;
+  }
+    /* user */
+  /* .profile-user{
+   position: absolute;
+   top: 390px;
+   left: 470px;
+   font-size: 20px;
+    }
+  .profile-input4{
+    position: absolute;
+    left: 580px;
+    width: 550px;
+    height: 40px;
+    top: 380px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+  .profile-input_user{
+    border: #000 1 solid;
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    width: 550px;
+    font-size: 20px;
+  } */
+  /* телефон */
+  .profile-phone{
+    position: absolute;
+    top: 390px;
+    left: 470px;
+    font-size: 20px;
+  }
+  .profile-input5{
+    position: absolute;
+    left: 580px;
+    width: 550px;
+    height: 40px;
+    top: 380px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+  .profile-input_phone{
+    border: #000 1 solid;
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    width: 550px;
+    font-size: 20px;
+  }
+  /*кнопка зарегестрироваться*/
+  .button_change{
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    right: 270px;
+    bottom: 160px;
+    border-radius: 45px;
+    background: rgb(255, 178, 115);
+  }

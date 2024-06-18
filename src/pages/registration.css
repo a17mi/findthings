@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+    /* box-sizing: border-box; */
+    background-color: #F6F7F6;
+    font-family: 'Zhizn';
+    font-weight: bold;
+  }
+  .start_page{
+    position: relative; 
+    /* width: 100%; 
+    height: 100vh; */
+    margin: 0;
+  }
+  .page_name{
+    position: relative;
+    top: 100px;
+    left: 50%;
+    right: 50%;
+    font-size: 24px;
+  }
+  /* логин */
+  .login{
+    position: absolute;
+    top: 180px;
+    left: 470px;
+    font-size: 20px;
+  }
+  .input1{
+    position: absolute;
+    left: 580px;
+    width: 550px;
+    height: 40px;
+    top: 170px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+  .input_login{
+    border: #000 1 solid;
+    position: absolute;
+    left: 30px;
+    top: 8px;
+    font-size: 20px;
+  }
+  /* пароль */
+  .password{
+    position: absolute;
+    top: 250px;
+    left: 470px;
+    font-size: 20px;
+  }
+  .input2{
+    position: absolute;
+    left: 580px;
+    width: 550px;
+    height: 40px;
+    top: 240px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+  .input_password{
+    border: #000 1 solid;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    font-size: 20px;
+  }
+    /* e-mail */
+  .email{
+    position: absolute;
+    top: 320px;
+    left: 470px;
+    font-size: 20px;
+  }
+  .input3{
+    position: absolute;
+    left: 580px;
+    width: 550px;
+    height: 40px;
+    top: 310px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+  .input_email{
+    border: #000 1 solid;
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    font-size: 20px;
+  }
+    /* user */
+  .user{
+   position: absolute;
+   top: 390px;
+   left: 470px;
+   font-size: 20px;
+    }
+  .input4{
+    position: absolute;
+    left: 580px;
+    width: 550px;
+    height: 40px;
+    top: 380px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+  .input_user{
+    border: #000 1 solid;
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    width: 550px;
+    font-size: 20px;
+  }
+  /* телефон */
+  .phone{
+    position: absolute;
+    top: 460px;
+    left: 470px;
+    font-size: 20px;
+  }
+  .input5{
+    position: absolute;
+    left: 580px;
+    width: 550px;
+    height: 40px;
+    top: 450px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+  .input_phone{
+    border: #000 1 solid;
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    font-size: 20px;
+  }
+  /*кнопка зарегестрироваться*/
+  .button_signup{
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    right: 270px;
+    bottom: 160px;
+    border-radius: 45px;
+    background: rgb(255, 178, 115);
+  }
+  .error_message{
+    position: relative;
+    top: 290px;
+    left:600px;
+    color: red;
+  }
